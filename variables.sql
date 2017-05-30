@@ -8,7 +8,7 @@
     
     IF res = 15 THEN
            dbms_output.put_line(res);
-           RETURN;
+           RETURN; --evita a execução da escrita no console
     END IF;
     
     dbms_output.put_line('teste');
